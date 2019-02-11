@@ -16,6 +16,6 @@ Demo you can see, if you click [here].
  - `npm i`
  - `gulp` 
 ### Result:
-![home](https://github.com/scandy5/WebVision/blob/master/app/img/WebVision.png)
+![home](https://github.com/scandy5/WebVision/blob/master/app/img/WebVision.jpg)
 
 [here]: https://scandy5.github.io/WebVision/dist/index.html
