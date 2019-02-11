@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>WebVision</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<!-- Font. Used Roboto becouse Harmonia Sans Pro Cyr is paid font-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<header class="sub-header">
+		<div class="container">
+			<div class="row justify-content-between">
+
+				<div class="col-sm-6 col-12">
+					<div class="sub-header__left">
+						<div class="sub-header__left-email">
+							<img src="./img/Mail_Ico.svg" alt="mail">
+							<span>info@shopy.com</span>
+						</div>
+						<div class="sub-header__left-phone">
+							<img src="./img/Phone_Ico.svg" alt="phone">
+							<span>996 - 5553 - 453</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-12">
+					<div class="sub-header__right">
+						<div class="sub-header__right-socials">
+							<a href="javascript:void(0)"><img src="./img/facebook.svg" alt="facebook"></a>
+							<a href="javascript:void(0)"><img src="./img/twitter.svg" alt="twitter"></a>
+							<a href="javascript:void(0)"><img src="./img/google_+.svg" alt="google_+"></a>
+							<a href="javascript:void(0)"><img src="./img/instegram.svg" alt="instagram"></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<header class="header">
+
+		<div id="sidebar" onclick="openMenu()" class="header__mobile-sidebar d-lg-none">
+			<div class="toggle-btn" id="toggle-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li><a href="javascript:void(0)">Home</a></li>
+				<li><a href="javascript:void(0)" class="active">Products</a></li>
+				<li><a href="javascript:void(0)">Hot Deals</a></li>
+				<li><a href="javascript:void(0)">About</a></li>
+				<li><a href="javascript:void(0)">Contacts</a></li>
+			</ul>
+		</div>
+
+
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-2 col-12">
+					<div class="header__logo">
+						<img src="./img/logo.png" alt="logo">
+					</div>
+				</div>
+
+				<div class="col-sm-8 col-12">
+					<nav class="header__nav d-none d-lg-block">
+						<ul>
+							<li><a href="javascript:void(0)">Home</a></li>
+							<li><a href="javascript:void(0)" class="active">Products</a></li>
+							<li><a href="javascript:void(0)">Hot Deals</a></li>
+							<li><a href="javascript:void(0)">About</a></li>
+							<li><a href="javascript:void(0)">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-sm-2 col-12">
+					<div class="header__icons">
+						<a href="javascript:void(0)"><img src="./img/search-solid.svg" alt="search"></a>
+						<a href="javascript:void(0)"><img src="./img/User_Ico.svg" alt="user"></a>
+						<a href="javascript:void(0)"><img src="./img/Cart_Ico.png" alt="cart"></a>
+						<div class="header__icons-amount">5</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<main class="product">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-5 col-sm-12">
+					<div class="product-clothes">
+						<div class="product-clothes__big">
+							<img src="./img/Big_Product_Img.png" alt="big-product">
+						</div>
+						<div class="product-clothes__small">
+							<div class="product-clothes__small-item"><img src="./img/Product_Img.png" alt="small-product"></div>
+							<div class="product-clothes__small-item"><img src="./img/Product_Img-2.png" alt="small-product"></div>
+							<div class="product-clothes__small-item accent-bg"><img src="./img/Product_Img-3.png" alt="small-product"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-7 col-sm-12">
+					<div class="product-content">
+						<h1 class="product-content__title">
+							FULL WINTER KIT
+						</h1>
+						<h3 class="product-content__subtitle">
+							Half Jacket + Skiny Trousers + Boot leather
+						</h3>
+						<p class="product-content__desc">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry
+							Lorem Ipsum is simply dummy text of the printing
+							and typesetting industry
+						</p>
+
+						<div class="product-content__options">
+							<div class="row justify-content-between">
+
+								<div class="col-xl-6 col-lg-12">
+									<div class="product-content__options-size">
+										<span class="product-content__options-size-label">Choose size</span>
+										<ul>
+											<li id="S" class="product-content__options-size-value">S</li>
+											<li>-</li>
+											<li id="M" class="product-content__options-size-value">M</li>
+											<li>-</li>
+											<li id="L" class="product-content__options-size-value active">L</li>
+											<li>-</li>
+											<li id="XL" class="product-content__options-size-value">XL</li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-xl-6 col-lg-12">
+									<div class="product-content__options-quantity">
+										<span class="product-content__options-quantity-label">Choose quantity</span>
+										<span id="next-count" class="product-content__options-quantity-value">+</span>
+										<span id="count">3</span>
+										<span id="previous-count" class="product-content__options-quantity-value">-</span>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="product-content__footer">
+							<div class="row">
+
+								<div class="col-xl-5 col-lg-12 display-flex align-items-center">
+									<span class="product-content__footer-price">
+										Price : 120$
+									</span>
+								</div>
+
+								<div class="col-xl-7 col-lg-12 display-flex justify-content-between">
+									<div class="product-content__footer-icons">
+										<a href="javascript:void(0)"><img src="./img/Share_Ico.png" alt="share"></a>
+										<a href="javascript:void(0)"><img src="./img/Add_To_Cart_Ico.png" alt="add to card"></a>
+										<a href="javascript:void(0)"><img src="./img/Like_Ico.png" alt="like"></a>
+									</div>
+									<button class="product-content__footer-button">Order Now</button>
+								</div>
+
+							</div>
+						</div>
+
+
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		</div>
+	</main>
+
+	<script>const openMenu = () => {
+		document.getElementById('sidebar').classList.toggle('active');
+		document.getElementById('toggle-btn').classList.toggle('toggle-btn_active');
+	}</script>
+	<script src="js/scripts.min.js"></script>
+</body>
+
+</html>
